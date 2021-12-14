@@ -196,11 +196,6 @@ color: #22fc00; !important;
   margin:30px;
 }
 
-.card:hover {
-  transform: scale(1.08);
-  transition: all 0.2s ease-in-out;
-
-}
 .card-body {
   display: flex;
   flex-direction: column;
@@ -384,7 +379,7 @@ textarea {
   text-align: center;
 }
 
-/*Media Queries
+/*Media Queries*/
 @media screen and (max-width: 850px) {
   .contact-wrapper {
     display: flex;
@@ -413,6 +408,7 @@ textarea {
   }
 }
 
+/*
 @media screen and (max-width: 569px) {
 
   .direct-contact-container, .form-wrapper {
