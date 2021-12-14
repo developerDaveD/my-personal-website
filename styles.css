@@ -119,12 +119,14 @@ color: #22fc00; !important;
 }
 
 .about-heading {
+  padding-top: 70px;
   text-align: center;
   letter-spacing: 8px;
 }
 
 .about-me-para {
   text-align: center;
+  
 }
 
 .about-me-right-side {
@@ -229,11 +231,14 @@ color: #22fc00; !important;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 10px 3px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 100px;
   margin-bottom: 100px;
   padding-top: 50px;
   padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
   position: relative;
   max-width: 940px;
   background: rgb(19, 19, 19);
@@ -253,6 +258,7 @@ color: #22fc00; !important;
 /* Left contact page */
 .form-horizontal {
   /*float: left;*/
+
   max-width: 400px;
   font-weight: 400;
 }
