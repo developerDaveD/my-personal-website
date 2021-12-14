@@ -384,7 +384,7 @@ textarea {
   text-align: center;
 }
 
-/*Media Queries*/
+/*Media Queries
 @media screen and (max-width: 850px) {
   .contact-wrapper {
     display: flex;
@@ -456,7 +456,7 @@ textarea {
     width: 99%;
   }
 }
-
+*/
 
 
 
