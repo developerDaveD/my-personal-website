@@ -35,15 +35,17 @@ color: #22fc00; !important;
 
 /* Top image section*/
 .background-image {
+  position: relative;
   background-size: cover;
     /*  clip-path: polygon(0 0, 100% 0, 100% 91%, 0% 100%);*/
 }
 
 .inner-wrapper {
+  position: absolute;
   padding: 10px;
   width: 80%;
-  margin-left: 60px;
-  margin-bottom: 250px;
+  margin-left: 20px;
+  margin-bottom: 20px;
   text-align: left;
 }
 
@@ -59,46 +61,41 @@ color: #22fc00; !important;
 
 .inner-wrapper h2 {
   color: #22fc00;
-  animation: fadeIn linear 3s;
-  -webkit-animation: fadeIn linear 3s;
-  -moz-animation: fadeIn linear 3s;
-  -o-animation: fadeIn linear 3s;
-  -ms-animation: fadeIn linear 3s;
+  animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
 }
 
 @keyframes fadeIn {
   0% {opacity:0;}
-  50% {opacity: .2;}
-  75% {opacity: .4;}
-  100% {opacity:1;}
+  50% {opacity: .5;}
+  100% {opacity: 1;}
 }
 
 @-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  50% {opacity: .2;}
-  75% {opacity: .4;}
-  100% {opacity:1;}
+   0% {opacity:0;}
+  50% {opacity: .5;}
+  100% {opacity: 1;}
 }
 
 @-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  50% {opacity: .2;}
-  75% {opacity: .4;}
-  100% {opacity:1;}
+   0% {opacity:0;}
+  50% {opacity: .5;}
+  100% {opacity: 1;}
 }
 
 @-o-keyframes fadeIn {
-  0% {opacity:0;}
-  50% {opacity: .2;}
-  75% {opacity: .4;}
-  100% {opacity:1;}
+   0% {opacity:0;}
+  50% {opacity: .5;}
+  100% {opacity: 1;}
 }
 
 @-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  50% {opacity: .2;}
-  75% {opacity: .4;}
-  100% {opacity:1;}
+   0% {opacity:0;}
+  50% {opacity: .5;}
+  100% {opacity: 1;}
 }
 
 /* About Me section*/
