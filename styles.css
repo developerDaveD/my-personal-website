@@ -206,12 +206,15 @@ color: #22fc00; !important;
   font-weight: bolder;
 }
 
+.card-text {
+  padding-bottom: 10px;
+}
 .btn {
   margin-top: auto;
   margin-right: auto;
   margin-left: auto;
   width: 40%;
-  background-color: rgb(47, 93, 133);
+  background-color: rgb(33, 77, 116);
 }
 
 /* Contact section */
