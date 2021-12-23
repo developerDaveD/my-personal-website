@@ -397,7 +397,6 @@ textarea {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
   }
 
   .direct-contact-container, .form-horizontal {
