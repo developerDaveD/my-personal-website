@@ -193,28 +193,35 @@ color: #22fc00; !important;
 }
 
 .card {
-  margin:30px;
+  margin: 30px;
 }
 
 .card-body {
   display: flex;
   flex-direction: column;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background: linear-gradient(55deg, rgb(199, 199, 199) 0%, rgb(244, 244, 244) 100%);
 }
 
 .card-title {
   color: #000000;
-  font-weight: bolder;
+  font-size: 1.6em;
+  text-transform: uppercase;
 }
 
 .card-text {
   padding-bottom: 10px;
 }
+
 .btn {
   margin-top: auto;
   margin-right: auto;
   margin-left: auto;
   width: 40%;
-  background-color: rgb(33, 77, 116);
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
 }
 
 /* Contact section */
@@ -227,8 +234,8 @@ color: #22fc00; !important;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: rgb(79, 79, 79);
-  background-blend-mode: screen;
+  background-color: #22fc00;
+  background-blend-mode: luminosity;
 }
 
 .contact-wrapper {
@@ -243,17 +250,16 @@ color: #22fc00; !important;
   padding-bottom: 50px;
   position: relative;
   max-width: 940px;
-  background: rgb(19, 19, 19);
-  background: linear-gradient(55deg, rgb(23, 23, 23) 0%, rgb(40, 40, 40) 100%);
-  border-radius: 2px;
+  background: linear-gradient(55deg, rgb(96, 96, 96) 0%, rgb(203, 203, 203) 100%);
+  border-radius: 4px;
 }
 
 .section-header {
   text-align: center;
   margin: 0 auto;
   padding: 40px 0;
-   letter-spacing: 8px;
-  color: rgb(255, 255, 255);
+  letter-spacing: 8px;
+  color: rgb(55, 55, 55);
   text-transform: uppercase;
 }
 
@@ -267,7 +273,7 @@ color: #22fc00; !important;
 .form-control, 
 textarea {
   max-width: 400px;
-  color: rgb(255, 255, 255);
+  color: rgb(55, 55, 55);
   letter-spacing: 1px;
 }
 
@@ -296,12 +302,12 @@ textarea {
 .list-item {
   margin-left: -10px;
   line-height: 4;
-  color: rgb(169, 169, 169);
+  color: rgb(55, 55, 55);
 }
 
 .contact-text {
   letter-spacing: 1.5px;
-  color: rgb(169, 169, 169);
+  color: rgb(55, 55, 55);
 }
 
 .place {
@@ -379,7 +385,7 @@ textarea {
 }
 
 .copyright {
-  color: rgb(169, 169, 169);
+  color: rgb(62, 62, 62);
   letter-spacing: 1px;
   text-align: center;
 }
