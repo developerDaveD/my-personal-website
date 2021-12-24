@@ -1,5 +1,5 @@
 * {
-  font-family: 'Genos', sans-serif;
+ font-family: 'Lato', sans-serif;
 }
 
 /* Fixed nav bar */
@@ -59,7 +59,7 @@ color: #22fc00; !important;
   -ms-animation: fadeIn linear 0.5s;
 }
 
-.inner-wrapper h2 {
+.inner-wrapper h3 {
   color: #22fc00;
   animation: fadeIn linear 2s;
   -webkit-animation: fadeIn linear 2s;
@@ -206,7 +206,8 @@ color: #22fc00; !important;
 
 .card-title {
   color: #000000;
-  font-size: 1.6em;
+  font-size: 1.3em;
+  font-weight: bolder;
   text-transform: uppercase;
 }
 
