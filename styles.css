@@ -188,7 +188,7 @@ color: #22fc00; !important;
 }
 
 .portfolio-row {
- justify-content: center;
+  justify-content: center; 
 }
 
 .card {
