@@ -216,6 +216,7 @@ color: #22fc00; !important;
 
 .card-text {
   padding-bottom: 10px;
+  margin: 10px;
 }
 
 .btn {
@@ -225,7 +226,6 @@ color: #22fc00; !important;
   width: 40%;
   text-transform: uppercase;
   overflow: hidden;
-  transition: all .2s ease-in-out;
 }
 
 /* Contact section */
