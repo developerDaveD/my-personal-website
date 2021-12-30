@@ -359,7 +359,7 @@ textarea {
   line-height: 49px;
   border-radius: 50%;
   color: rgb(255, 255, 255);
-  background-color: rgb(55, 55, 55);
+  background-color: #354555;
   cursor: pointer; 
   transition: all .2s ease-in-out;
 }
