@@ -409,15 +409,14 @@ textarea {
     margin-right: auto;
   }
 
-  /*
 .form-horizontal {
     margin: 0 auto;
-  }  */
+  }  
   
   .send-button {
     width: 100%;
   }
-  
+
   .direct-contact-container {
     margin-top: 60px;
     max-width: 300px;
