@@ -37,6 +37,8 @@ color: #22fc00; !important;
 .background-image {
   position: relative;
   background-size: cover;
+  background-color: #63718d;
+  background-blend-mode: luminosity;
 }
 
 .inner-wrapper {
@@ -184,7 +186,7 @@ color: #22fc00; !important;
 
 /* Portfolio section*/
 .portfolio-container {
-  box-shadow: rgba(166, 166, 169, 0.25) 0px 30px 60px -12px inset, rgba(48, 48, 48, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .portfolio-header {
   text-align: center;
@@ -196,15 +198,13 @@ color: #22fc00; !important;
 }
 
 .card {
-  margin: 50px;
+  margin: 35px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .card-body {
   display: flex;
   flex-direction: column;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
 }
 
 .card-title {
@@ -240,8 +240,8 @@ color: #22fc00; !important;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: #686868;
-  background-blend-mode: soft-light;
+  background-color: #63718d;
+  background-blend-mode: luminosity;
 }
 
 .contact-wrapper {
