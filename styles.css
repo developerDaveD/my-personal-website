@@ -379,10 +379,6 @@ textarea {
   transition: all .2s ease-in-out;
 }
 
-.social-media-list li:hover {
-
-}
-
 .social-media-list li:hover:after {
   opacity: 1;  
   transform: scale(1.12);
@@ -411,6 +407,7 @@ textarea {
 
 .form-horizontal {
     margin: 0 auto;
+    width: 90%;
   }  
   
   .send-button {
@@ -418,10 +415,25 @@ textarea {
   }
 
   .direct-contact-container {
-    margin-top: 60px;
-    max-width: 300px;
-  }    
+    margin: 0 auto;
+    width: 80%;
+  }  
 
+  .contact-list {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+}
+
+  .list-item {
+  line-height: 3;
+}
+
+  .rule {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
   .social-media-list li {
     width: 54px;
     height: 54px;
@@ -435,9 +447,9 @@ textarea {
   }
 }
 
-/*
+
 @media screen and (max-width: 569px) {
-  .direct-contact-container, .form-wrapper {
+  .form-horizontal {
     display: flex;
     flex-direction: column;
     float: none;
@@ -452,11 +464,6 @@ textarea {
     width: 400px;
   } 
   
-  .direct-contact-container {
-    margin-top: 60px;
-    max-width: 280px;
-  }  
-
   .social-media-list {
     left: 0;
   }
