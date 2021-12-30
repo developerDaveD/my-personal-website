@@ -37,7 +37,7 @@ color: #22fc00; !important;
 .background-image {
   position: relative;
   background-size: cover;
-  background-color: #63718d;
+  background-color: #354555;
   background-blend-mode: luminosity;
 }
 
@@ -153,7 +153,7 @@ color: #22fc00; !important;
   padding: 3%;
   text-align: left;
   border-radius: 4px;
- box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  box-shadow: rgba(68, 78, 95, 0.18) 0px 2px 4px;
 }
 
 .cert-heading {
@@ -183,10 +183,9 @@ color: #22fc00; !important;
 .icons {
   text-align: center;
 }
-
 /* Portfolio section*/
 .portfolio-container {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(68, 78, 95, 0.18) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .portfolio-header {
   text-align: center;
@@ -240,7 +239,7 @@ color: #22fc00; !important;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: #63718d;
+  background-color: #354555;
   background-blend-mode: luminosity;
 }
 
@@ -298,7 +297,7 @@ textarea {
 .send-button:hover {
   border: 1px solid #22fc00;
   color: rgb(255, 255, 255);
-  background-color: rgb(55, 55, 55);
+  background-color: #354555;
 }
 
 /* Begin Right Contact Page */
