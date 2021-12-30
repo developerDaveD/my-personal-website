@@ -240,7 +240,7 @@ color: #22fc00; !important;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: #858585;
+  background-color: #686868;
   background-blend-mode: soft-light;
 }
 
@@ -257,7 +257,7 @@ color: #22fc00; !important;
   position: relative;
   max-width: 940px;
   background-color: rgb(255, 255, 255);
- box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   border-radius: 8px;
 }
 
@@ -288,8 +288,8 @@ textarea {
   height: 50px;
   width: 400px;
   overflow: hidden;
-  background-color: rgb(249, 249, 249);
-  border: 1px solid #22fc00;
+  background-color: transparent;
+  border: 1px solid rgb(55, 55, 55);
   border-radius: 4px;
   transition: all .2s ease-in-out;
 }
