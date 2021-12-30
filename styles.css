@@ -278,8 +278,7 @@ color: #22fc00; !important;
 
 .form-control, 
 textarea {
-  color: rgb(55, 55, 55);
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 .send-button {
