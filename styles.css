@@ -232,14 +232,16 @@ color: #22fc00; !important;
 .contact-section {
   width: 100%;
   height: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
   padding-top: 70px;
   padding-bottom: 70px;
   background-image: url(images/contact_form_bw_background.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: #22fc00;
-  background-blend-mode: luminosity;
+  background-color: #858585;
+  background-blend-mode: soft-light;
 }
 
 .contact-wrapper {
@@ -254,8 +256,8 @@ color: #22fc00; !important;
   padding-bottom: 50px;
   position: relative;
   max-width: 940px;
-  background-color: rgb(252, 252, 252);
- box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: rgb(255, 255, 255);
+ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   border-radius: 8px;
 }
 
@@ -270,14 +272,13 @@ color: #22fc00; !important;
 
 /* Left contact page */
 .form-horizontal {
-  /*float: left;*/
-  max-width: 400px;
   font-weight: 400;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .form-control, 
 textarea {
-  max-width: 400px;
   color: rgb(55, 55, 55);
   letter-spacing: 1px;
 }
@@ -287,14 +288,22 @@ textarea {
   height: 50px;
   width: 400px;
   overflow: hidden;
+  background-color: rgb(249, 249, 249);
+  border: 1px solid #22fc00;
+  border-radius: 4px;
   transition: all .2s ease-in-out;
+}
+
+.send-button:hover {
+  border: 1px solid #22fc00;
+  color: rgb(255, 255, 255);
+  background-color: rgb(55, 55, 55);
 }
 
 /* Begin Right Contact Page */
 .direct-contact-container {
-  max-width: 400px;
   margin-top: 150px;
-  margin-left: 50px;
+  margin-left: 25px;
   margin-right: 50px;
 }
 
@@ -380,12 +389,13 @@ textarea {
 }
 
 .social-media-list li:hover a {
-  color: rgb(255, 255, 255);
+  color: #22fc00;
 }
 
 .copyright {
   color: rgb(62, 62, 62);
   letter-spacing: 1px;
+ font-size: smaller;
   text-align: center;
 }
 
@@ -448,7 +458,7 @@ textarea {
   .social-media-list li {
     height: 55px;
     width: 55px;
-    line-height: 55px;
+    line-height: 48px;
     font-size: 2rem;
   }
 
