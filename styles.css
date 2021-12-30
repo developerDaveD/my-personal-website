@@ -152,6 +152,8 @@ color: #22fc00; !important;
   margin-right: 5%;
   padding: 3%;
   text-align: left;
+  background: rgb(255,255,255);
+  background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(226,229,233,1) 100%);
   border-radius: 4px;
   box-shadow: rgba(68, 78, 95, 0.18) 0px 2px 4px;
 }
