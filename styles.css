@@ -121,15 +121,39 @@ color: #22fc00; !important;
 }
 
 .about-heading {
-  padding-top: 50px;
+  padding-top: 30px;
   text-align: center;
   letter-spacing: 8px;
 }
 
 .about-me-para {
   text-align: center;
-  font-size: 1.4rem;
-  
+  font-size: 1.2rem;
+}
+
+
+.modal-content {
+  color: #E4E7EB;
+  background: rgb(36,59,83);
+  background: radial-gradient(circle, rgba(36,59,83,1) 28%, rgba(16,42,67,1) 100%);
+}
+
+.modal-title {
+  color: #E4E7EB;
+}
+
+.modal-header {
+  color: #E4E7EB;
+}
+
+.modal-para {
+  color: #CBD2D9;
+  text-align: left;
+}
+
+.modal-img {
+  width: 50%; 
+  padding-bottom: 5%;
 }
 
 .about-me-right-side {
