@@ -7,30 +7,29 @@
   display: inline;
   text-align: end;
   padding: 15px;
-
   z-index: 500;
 }
 
 .nav-menu a {
   font-size: 24px;
   color: #000000;
-  -webkit-transition: all 0.4s ease-in;
+  -webkit-transition: all 0.2s ease-in;
 }
 
 .nav-menu a:hover {
   color: #22fc00; !important;
-  -webkit-transition: all 0.4s ease-in;
+  -webkit-transition: all 0.2s ease-in;
 }
 
 .navbar-toggler {
-    margin-top: 20px;
-    margin-right: 20px;
-    color: #000000;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
 .navbar-toggler:hover {
-color: #22fc00; !important;
--webkit-transition: all 0.4s ease-in;
+  background-color: #ffffff;
+  color: #3a3a3a; 
+-webkit-transition: all 0.2s ease-in;
 }
 
 /* Top image section*/
