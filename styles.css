@@ -150,7 +150,7 @@
 .modal-content {
   color: #E4E7EB;
   background: rgb(36,59,83);
-  background: radial-gradient(circle, rgba(36,59,83,1) 28%, rgba(16,42,67,1) 100%);
+  background: radial-gradient(circle, rgba(36,59,83,1) 28%, rgb(9, 26, 41) 100%);
 }
 
 .modal-title {
