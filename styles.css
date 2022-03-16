@@ -30,7 +30,7 @@
 }
 
 .navbar-toggler:hover {
-  background-color: #22fc00;
+  background-color: #ffffff;
   color: #f2f2f2;
 -webkit-transition: all 0.2s ease-in;
 }
@@ -42,17 +42,17 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 1650px;
-  /* background-color: #354555;
-  background-blend-mode: soft-light; */
+  max-height: 600px;
+  background-color: #565656;
+  background-blend-mode: soft-light; 
 }
 
 .inner-wrapper {
-  position: absolute;
-  padding: 10px;
-  width: 80%;
-  margin-left: 40px;
-  margin-bottom: 40px;
-  text-align: left;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20%;
+  text-align: center;
 }
 
 .inner-wrapper h1 {
@@ -111,7 +111,7 @@
   width: 100%;
   height: 100%;
   max-width: 1650px;
-  background-color: #354555;
+  background-color: #3d4c51;
 }
 
 .about-me-left-side {
@@ -152,13 +152,13 @@
 .modal-button:hover {
   border: 1px solid #22fc00;
   color: #f2f2f2;
-  background-color: #354555;
+  background-color: #3d4c51;
 }
 
 .modal-content {
   color: #f2f2f2;
-  background: #354555;
-  background: radial-gradient(circle, #354555 0%, rgb(1, 1, 1) 100%);
+  background: #3d4c51;
+  background: radial-gradient(circle, #3d4c51 0%, rgb(1, 1, 1) 100%);
 }
 
 .modal-title {
@@ -228,9 +228,8 @@
 
 /* Portfolio section*/
 .portfolio-container {
-  background-image: url(images/portfolio_background.jpg);
-    /* background-color: #354555;
-  background-blend-mode: soft-light; */
+  /*background-image: url(images/portfolio_background.jpg); */
+  background-color: #cabaaa;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -262,7 +261,7 @@
   display: flex;
   flex-direction: column;
   color: #f2f2f2;
-  background-color: #354555;
+  background-color: #3d4c51;
 }
 
 .card-title {
@@ -285,7 +284,7 @@
   color: #f2f2f2;
   text-transform: uppercase;
   border-radius: 0px;
-  background-color: #354555;
+  background-color: #3d4c51;
   border: 1px solid #f2f2f2;
   transition: all .2s ease-in-out;
   text-transform: uppercase;
@@ -294,7 +293,7 @@
 .btn:hover {
   border: 1px solid #22fc00;
   color: #f2f2f2;
-  background-color: #354555;
+  background-color: #3d4c51;
 }
 
 /* Contact section */
@@ -310,7 +309,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: #354555;
+  background-color: #3d4c51;
   background-blend-mode: screen;
 }
 
@@ -428,7 +427,7 @@ textarea {
   margin: 4px 4px;
   line-height: 49px;
   border-radius: 50%;
-  background-color: rgb(179, 179, 179);
+  background-color: #cabaaa;
   cursor: pointer; 
   transition: all .2s ease-in-out;
 }
