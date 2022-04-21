@@ -1,5 +1,4 @@
 * {
- font-family: 'Lato', sans-serif;
 }
 
 .navbar-container {
@@ -10,6 +9,7 @@
 .navbar {
   margin: auto;
   max-width: 1300px;
+  font-family: 'Lato', sans-serif;
 } 
 
 /* Top image section*/
@@ -31,10 +31,12 @@
 }
 
 .inner-wrapper h1 {
+  font-family: 'Montserrat', sans-serif;
   color: #f2f2f2;
 }
 
 .inner-wrapper h3 {
+  font-family: 'Lato', sans-serif;
   color: #bcfd4c;
 }
 
@@ -65,6 +67,7 @@
 
 .about-heading {
   padding-top: 30px;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 8px;
   color: #131313;
 }
@@ -79,6 +82,7 @@
 .modal-button {
   height: 50px;
   width: 160px;
+  font-family: 'Lato', sans-serif;
   color: #131313;
   text-decoration: none;
   text-transform: uppercase;
@@ -89,6 +93,7 @@
 }
 
 .modal-button:hover {
+  font-family: 'Lato', sans-serif;
   color: #f2f2f2;
   background: rgb(54, 54, 54);
   background: linear-gradient(0deg, rgb(52, 52, 52) 0%, rgba(66,66,66,1) 100%);
@@ -96,19 +101,23 @@
 }
 
 .modal-content {
+  font-family: 'Lato', sans-serif;
   color: #f2f2f2;
   background: #424242;
 }
 
 .modal-title {
+  font-family: 'Montserrat', sans-serif;
   color: #f2f2f2;
 }
 
 .modal-header {
+  font-family: 'Montserrat', sans-serif;
   color: #f2f2f2;
 }
 
 .modal-para {
+  font-family: 'Lato', sans-serif;
   color: #f2f2f2;
   text-align: left;
 }
@@ -128,6 +137,7 @@
 }
 
 .about-content {
+  font-family: 'Montserrat', sans-serif;
   text-align: left;
   color: #131313;
 }
@@ -139,6 +149,7 @@
 .icon-heading {
   margin: auto;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .icon-container {
@@ -150,6 +161,7 @@
 .cert-heading {
   margin: auto;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .cert-left-side {
@@ -176,6 +188,7 @@
 
 .portfolio-header {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 8px;
   color: #f2f2f2;
 }
@@ -204,15 +217,17 @@
 }
 
 .card-title {
-  color: #131313;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.3em;
   font-weight: bolder;
   text-transform: uppercase;
+  color: #131313;
 }
 
 .card-text {
   padding-bottom: 10px;
   margin: 10px;
+  font-family: 'Lato', sans-serif;
 }
 
 .btn {
@@ -221,6 +236,7 @@
   margin-left: auto;
   width: 140px;
   padding:10px;
+  font-family: 'Lato', sans-serif;
   color: #131313;
   text-decoration: none;
   text-transform: uppercase;
@@ -231,6 +247,7 @@
 } 
 
 .btn:hover {
+  font-family: 'Lato', sans-serif;
   color: #f2f2f2;
   background: rgb(54, 54, 54);
   background: linear-gradient(0deg, rgb(52, 52, 52) 0%, rgba(66,66,66,1) 100%);
@@ -274,6 +291,7 @@
   text-align: center;
   margin: 0 auto;
   padding: 40px 0;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 8px;
   color: #f2f2f2;
   text-transform: uppercase;
@@ -281,6 +299,7 @@
 
 /* Left contact page */
 .form-horizontal {
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   margin-left: 2%;
   margin-right: 2%;
@@ -288,6 +307,7 @@
 
 .form-control, 
 textarea {
+  font-family: 'Lato', sans-serif;
   letter-spacing: 2px;
   border-radius: 4px;
   background-color: transparent;
@@ -301,6 +321,7 @@ textarea {
 .send-button {
   margin-top: 40px;
   height: 50px;
+  font-family: 'Lato', sans-serif;
   color: #131313;
   text-decoration: none;
   text-transform: uppercase;
@@ -311,6 +332,7 @@ textarea {
 }
 
 .send-button:hover {
+  font-family: 'Lato', sans-serif;
   color: #f2f2f2;
   background: rgb(54, 54, 54);
   background: linear-gradient(0deg, rgb(52, 52, 52) 0%, rgba(66,66,66,1) 100%);
@@ -326,6 +348,7 @@ textarea {
 
 /* Location, Phone, Email Section */
 .contact-list {
+  font-family: 'Lato', sans-serif;
   list-style-type: none;
   width: 360px;
 }
@@ -333,10 +356,12 @@ textarea {
 .list-item {
   margin-left: -10px;
   line-height: 4;
+  font-family: 'Lato', sans-serif;
   color: #f2f2f2;
 }
 
 .contact-text {
+  font-family: 'Lato', sans-serif;
   letter-spacing: 1.5px;
   color: #f2f2f2;
 }
@@ -406,6 +431,7 @@ textarea {
 
 .copyright {
   color: #f2f2f2;
+  font-family: 'Lato', sans-serif;
   letter-spacing: 1px;
   font-size: smaller;
   text-align: center;
