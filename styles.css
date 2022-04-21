@@ -288,11 +288,12 @@
   padding-bottom: 50px;
   position: relative;
   max-width: 940px;
-  background-color: #424242;
+  background: rgb(66,66,66);
+  background: linear-gradient(98deg, rgba(66,66,66,1) 0%, rgba(41,41,41,1) 100%);
   box-shadow: rgb(6, 6, 6) 0px 20px 30px -10px;
 }
 
-.section-header {
+.section-header { 
   text-align: center;
   margin: 0 auto;
   padding: 40px 0;
