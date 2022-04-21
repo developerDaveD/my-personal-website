@@ -8,8 +8,9 @@
 }
 
 .navbar {
-    margin: auto;
-    max-width: 1300px;
+  height: 10vh;
+  margin: auto;
+  max-width: 1300px;
 } 
 
 /* Top image section*/
@@ -24,10 +25,9 @@
 }
 
 .inner-wrapper {
+  position: absolute;
+  top: 35%;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 10%;
   text-align: center;
 }
 
@@ -83,20 +83,22 @@
 /* About Me section*/
 
 .about-me-section {
-  background-color: #424242;
+  background-color: #e0e0e0;
 }
 .about-me-container {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   height: 100%;
-  max-width: 1650px;
-  background-color: #424242;
+  max-width: 1300px;
+  background-color: #e0e0e0;
 }
 
 .about-me-left-side {
-  height: 100%;
-  position: relative;
+}
+
+.about-me-left-side-content {
+  margin: auto;
   text-align: center;
 }
 
@@ -106,17 +108,15 @@
 
 .about-heading {
   padding-top: 30px;
-  text-align: center;
   letter-spacing: 8px;
-  color: #f2f2f2;
+  color: #131313;
 }
 
 .about-me-para {
-  padding-left: 6%;
-  padding-right: 6%;
-  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
   font-size: 1.2rem;
-  color: rgb(255, 255, 255);
+  color: #131313;
 }
 
 .modal-button {
@@ -141,7 +141,6 @@
 .modal-content {
   color: #f2f2f2;
   background: #424242;
-  
 }
 
 .modal-title {
@@ -163,7 +162,6 @@
 }
 
 .about-me-right-side {
-  max-width: 600px;
   color: rgb(0, 0, 0);
 }
 
@@ -174,16 +172,15 @@
 
 .about-content {
   text-align: left;
-  color: #f2f2f2;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #131313;
 }
 
 .icon-section {
   padding: 3%;
-  background-color: #686868;
 }
 
-.icon-header {
+.icon-heading {
+  margin: auto;
   text-align: center;
 }
 
@@ -193,18 +190,12 @@
 .icons {
 }
 
-.certification-container {
-}
-
 .cert-heading {
+  margin: auto;
   text-align: center;
 }
 
-.certification-art {
-  text-align: left;
-}
 .certifications-list {
-  margin-left: 5%;
   text-align: left;
 }
 
