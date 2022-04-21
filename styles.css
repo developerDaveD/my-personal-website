@@ -163,17 +163,15 @@
 /* Portfolio section*/
 
 .portfolio-section {
-  background-color: #686868;
+  background: rgb(66,66,66);
+  background: linear-gradient(0deg, rgba(66,66,66,1) 0%, rgba(41,41,41,1) 100%);
 }
 .portfolio-container {
   /*background-image: url(images/portfolio_background.jpg); */
   margin-left: auto;
   margin-right: auto;
-  background-color: #686868;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
   max-width: 1650px;
+  background: none;
 }
 
 .portfolio-header {
@@ -200,12 +198,12 @@
 .card-body {
   display: flex;
   flex-direction: column;
-  color: #f2f2f2;
-  background-color: #424242;
+  color: #131313;
+  background-color: #e0e0e0;
 }
 
 .card-title {
-  color: #ffffff;
+  color: #131313;
   font-size: 1.3em;
   font-weight: bolder;
   text-transform: uppercase;
