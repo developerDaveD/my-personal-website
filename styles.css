@@ -158,6 +158,11 @@
 .icons {
 }
 
+.horizontal-rule {
+  margin: auto;
+  width: 85%;
+}
+
 .cert-heading {
   margin: auto;
   text-align: center;
