@@ -196,7 +196,8 @@
 }
 
 .cert-left-side {
-  margin: auto;
+  padding: 30px;
+  background-color: #bcfd4c;
 }
 
 .certifications-list {
