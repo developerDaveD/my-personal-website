@@ -91,10 +91,11 @@
   width: 100%;
   height: 100%;
   max-width: 1300px;
-  background-color: #e0e0e0;
+  background-color: #df4e4e;
 }
 
 .about-me-left-side {
+  background-color: #b1a5a5;
 }
 
 .about-me-left-side-content {
@@ -162,6 +163,7 @@
 }
 
 .about-me-right-side {
+  background-color: #acfcb7;
   color: rgb(0, 0, 0);
 }
 
