@@ -485,19 +485,7 @@ textarea {
   
 /* Begin Footer */
 
-.footer-container {
-  height: 10vh;
-  background: rgb(66,66,66);
-  background: linear-gradient(0deg, rgba(66,66,66,1) 0%, rgba(41,41,41,1) 100%);
-}
 
-.footer-content {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1300px;
-  background: rgb(66,66,66);
-  background: linear-gradient(0deg, rgba(66,66,66,1) 0%, rgba(41,41,41,1) 100%);
-}
 
 
 
