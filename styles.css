@@ -407,6 +407,7 @@ textarea {
   border-radius: 50%;
   background-color: #FAFAFA;
   cursor: pointer; 
+  box-shadow: 0 0 0 2px #bcfd4c;
   transition: all .2s ease-in-out;
 }
 
@@ -420,7 +421,7 @@ textarea {
   line-height: 49px;
   border-radius: 50%;
   opacity: 0;
-  box-shadow: 0 0 0 1px #bcfd4c;
+  box-shadow: 0 0 0 2px #bcfd4c;
   transition: all .2s ease-in-out;
 }
 
