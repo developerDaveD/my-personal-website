@@ -394,7 +394,7 @@ textarea {
 }
 
 .social-media-list li a {
-  color: #424242;
+  color: #fafafa;
 }
 
 .social-media-list li {
@@ -405,9 +405,9 @@ textarea {
   margin: 4px 4px;
   line-height: 49px;
   border-radius: 50%;
-  background-color: #FAFAFA;
+  background-color: #424242;
   cursor: pointer; 
-  box-shadow: 0 0 0 2px #bcfd4c;
+  box-shadow: 0 0 0 1px #fafafa;
   transition: all .2s ease-in-out;
 }
 
@@ -422,7 +422,7 @@ textarea {
   border-radius: 50%;
   opacity: 0;
   box-shadow: 0 0 0 2px #bcfd4c;
-  transition: all .2s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 .social-media-list li:hover:after {
@@ -432,7 +432,7 @@ textarea {
 }
 
 .social-media-list li:hover a {
-  color: #686868;
+  
 }
 
 .copyright {
