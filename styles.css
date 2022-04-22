@@ -69,7 +69,6 @@
 .about-heading {
   padding-top: 30px;
   font-family: 'Montserrat', sans-serif;
-  letter-spacing: 8px;
   color: #131313;
 }
 
@@ -86,7 +85,6 @@
   font-family: 'Lato', sans-serif;
   color: #131313;
   text-decoration: none;
-  text-transform: uppercase;
   border: none;
   border-radius: 0.4em;
   background: rgb(183,244,78);
@@ -195,7 +193,7 @@
 .portfolio-header {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  letter-spacing: 8px;
+  letter-spacing: 4px;
   color: #f2f2f2;
 }
 
@@ -227,7 +225,6 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 1.3em;
   font-weight: bolder;
-  text-transform: uppercase;
   color: #131313;
 }
 
@@ -246,7 +243,6 @@
   font-family: 'Lato', sans-serif;
   color: #131313;
   text-decoration: none;
-  text-transform: uppercase;
   border: none;
   border-radius: 0.4em;
   background: rgb(183,244,78);
@@ -302,7 +298,6 @@
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 8px;
   color: #f2f2f2;
-  text-transform: uppercase;
 }
 
 /* Left contact page */
@@ -332,7 +327,6 @@ textarea {
   font-family: 'Lato', sans-serif;
   color: #131313;
   text-decoration: none;
-  text-transform: uppercase;
   border: none;
   border-radius: 0.4em;
   background: rgb(183,244,78);
