@@ -204,13 +204,14 @@
 
 .card {
   margin: 35px;
-  border-radius: 0px;
+  border-radius: 0%;
   border: none;
+  background-color: none;
   box-shadow: rgb(6, 6, 6) 0px 20px 30px -10px;
 }
 
 .card-img-top {
-  border-radius: 0px;
+  border-radius: 0%;
   border: none;
 }
 .card-body {
@@ -218,7 +219,7 @@
   flex-direction: column;
   color: #131313;
   background: rgb(224,224,224);
-  background: radial-gradient(circle, rgba(224,224,224,1) 0%, rgba(199,199,199,1) 100%);
+  background: radial-gradient(circle, rgba(224,224,224,1) 0%, rgba(199,199,199,1) 100%); 
 }
 
 .card-title {
@@ -331,7 +332,6 @@ textarea {
   color: #131313;
   text-decoration: none;
   text-transform: uppercase;
-  border: 1px solid #bcfd4c;
   border-radius: 0.4em;
   background: rgb(183,244,78);
   background: radial-gradient(circle, rgba(183,244,78,1) 0%, rgba(149,222,10,1) 100%);
