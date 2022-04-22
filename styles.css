@@ -333,6 +333,7 @@ textarea {
   color: #131313;
   text-decoration: none;
   text-transform: uppercase;
+  border: none;
   border-radius: 0.4em;
   background: rgb(183,244,78);
   background: radial-gradient(circle, rgba(183,244,78,1) 0%, rgba(149,222,10,1) 100%);
