@@ -38,6 +38,7 @@
 
 .inner-wrapper h4 {
   font-family: 'Lato', sans-serif;
+   font-weight: 900;
   color: #FF6C17;
 }
 
@@ -63,7 +64,7 @@
 }
 
 .photo {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgb(6, 6, 6) 0px 20px 30px -10px;
 }
 
 .about-heading {
@@ -88,8 +89,6 @@
   border: none;
   border-radius: 0.4em;
   background: rgb(254,140,77);
-  background: radial-gradient(circle, rgba(254,140,77,1) 0%, rgba(255,108,23,1) 50%);
-
 }
 
 .modal-button:hover {
@@ -238,7 +237,7 @@
   margin-top: auto;
   margin-right: auto;
   margin-left: auto;
-  width: 140px;
+  width: 120px;
   padding:10px;
   font-family: 'Lato', sans-serif;
   color: #131313;
@@ -246,7 +245,6 @@
   border: none;
   border-radius: 0.4em;
   background: rgb(254,140,77);
-  background: radial-gradient(circle, rgba(254,140,77,1) 0%, rgba(255,108,23,1) 50%);
 } 
 
 .btn:hover {
@@ -330,7 +328,6 @@ textarea {
   border: none;
   border-radius: 0.4em;
   background: rgb(254,140,77);
-  background: radial-gradient(circle, rgba(254,140,77,1) 0%, rgba(255,108,23,1) 50%);
 }
 
 .send-button:hover {
