@@ -16,10 +16,10 @@
 /* Top image section*/
 .background-image {
   position: relative;
-  background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  /* background-attachment: fixed; */
+  background-size: cover;
+  background-attachment: fixed; 
   background-color: #676767;
   background-blend-mode: soft-light; 
 }
@@ -37,7 +37,7 @@
   color: #fafafa; 
 }
 
-.inner-wrapper h4 {
+.inner-wrapper h5 {
   font-weight: 900;
   color: #FF6C17;
 }
