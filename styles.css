@@ -38,13 +38,13 @@
 
 .inner-wrapper h4 {
   font-family: 'Lato', sans-serif;
-  color: #bcfd4c;
+  color: #FF6C17;
 }
 
 /* About Me section*/
 
 .about-me-section {
-  background-color: #e0e0e0;
+  background-color: #f3f3f3;
 }
 .about-me-container {
   margin-left: auto;
@@ -87,15 +87,17 @@
   text-decoration: none;
   border: none;
   border-radius: 0.4em;
-  background: rgb(183,244,78);
-  background: radial-gradient(circle, rgba(183,244,78,1) 0%, rgba(149,222,10,1) 100%);
+  background: rgb(254,140,77);
+  background: radial-gradient(circle, rgba(254,140,77,1) 0%, rgba(255,108,23,1) 50%);
+
 }
 
 .modal-button:hover {
   font-family: 'Lato', sans-serif;
   color: #f2f2f2;
   background: rgb(54, 54, 54);
-  background: linear-gradient(0deg, rgb(52, 52, 52) 0%, rgba(66,66,66,1) 100%);
+  background: rgb(54,54,54);
+  background: radial-gradient(circle, rgba(54,54,54,1) 0%, rgba(66,66,66,1) 50%);
   transition: 0.5s;
 }
 
@@ -194,7 +196,7 @@
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 4px;
-  color: #f2f2f2;
+  color: #f3f3f3;
 }
 
 .portfolio-row {
@@ -216,9 +218,7 @@
 .card-body {
   display: flex;
   flex-direction: column;
-  color: #131313;
-  background: rgb(224,224,224);
-  background: radial-gradient(circle, rgba(224,224,224,1) 0%, rgba(199,199,199,1) 100%); 
+  color: ##f3f3f3;
 }
 
 .card-title {
@@ -245,15 +245,15 @@
   text-decoration: none;
   border: none;
   border-radius: 0.4em;
-  background: rgb(183,244,78);
-  background: radial-gradient(circle, rgba(183,244,78,1) 0%, rgba(149,222,10,1) 100%);
+  background: rgb(254,140,77);
+  background: radial-gradient(circle, rgba(254,140,77,1) 0%, rgba(255,108,23,1) 50%);
 } 
 
 .btn:hover {
   font-family: 'Lato', sans-serif;
   color: #f2f2f2;
-  background: rgb(54, 54, 54);
-  background: linear-gradient(0deg, rgb(52, 52, 52) 0%, rgba(66,66,66,1) 100%);
+  background: rgb(54,54,54);
+  background: radial-gradient(circle, rgba(54,54,54,1) 0%, rgba(66,66,66,1) 50%);
   transition: 0.5s;
 }
 
@@ -329,15 +329,15 @@ textarea {
   text-decoration: none;
   border: none;
   border-radius: 0.4em;
-  background: rgb(183,244,78);
-  background: radial-gradient(circle, rgba(183,244,78,1) 0%, rgba(149,222,10,1) 100%);
+  background: rgb(254,140,77);
+  background: radial-gradient(circle, rgba(254,140,77,1) 0%, rgba(255,108,23,1) 50%);
 }
 
 .send-button:hover {
   font-family: 'Lato', sans-serif;
   color: #f2f2f2;
-  background: rgb(54, 54, 54);
-  background: linear-gradient(0deg, rgb(52, 52, 52) 0%, rgba(66,66,66,1) 100%);
+  background: rgb(54,54,54);
+  background: radial-gradient(circle, rgba(54,54,54,1) 0%, rgba(66,66,66,1) 50%);
   transition: 0.5s;
 }
 
@@ -418,7 +418,7 @@ textarea {
   line-height: 49px;
   border-radius: 50%;
   opacity: 0;
-  box-shadow: 0 0 0 2px #bcfd4c;
+  box-shadow: 0 0 0 2px #FF6C17;
   transition: all .4s ease-in-out;
 }
 
