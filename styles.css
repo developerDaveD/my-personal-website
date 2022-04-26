@@ -1,4 +1,5 @@
 * {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-container {
@@ -37,8 +38,7 @@
 }
 
 .inner-wrapper h4 {
-  font-family: 'Lato', sans-serif;
-   font-weight: 900;
+  font-weight: 900;
   color: #FF6C17;
 }
 
@@ -69,7 +69,6 @@
 
 .about-heading {
   padding-top: 30px;
-  font-family: 'Montserrat', sans-serif;
   color: #131313;
 }
 
@@ -83,41 +82,34 @@
 .modal-button {
   height: 50px;
   width: 160px;
-  font-family: 'Lato', sans-serif;
   color: #131313;
   text-decoration: none;
   border: none;
   border-radius: 0.4em;
-  background: rgb(254,140,77);
+  background: #FF6C17;
 }
 
 .modal-button:hover {
-  font-family: 'Lato', sans-serif;
   color: #f2f2f2;
-  background: rgb(54, 54, 54);
-  background: rgb(54,54,54);
-  background: radial-gradient(circle, rgba(54,54,54,1) 0%, rgba(66,66,66,1) 50%);
+  background: #424242;
+  opacity: .7;
   transition: 0.5s;
 }
 
 .modal-content {
-  font-family: 'Lato', sans-serif;
   color: #f2f2f2;
   background: #424242;
 }
 
 .modal-title {
-  font-family: 'Montserrat', sans-serif;
   color: #f2f2f2;
 }
 
 .modal-header {
-  font-family: 'Montserrat', sans-serif;
   color: #f2f2f2;
 }
 
 .modal-para {
-  font-family: 'Lato', sans-serif;
   color: #f2f2f2;
   text-align: left;
 }
@@ -137,7 +129,6 @@
 }
 
 .about-content {
-  font-family: 'Montserrat', sans-serif;
   text-align: left;
   color: #131313;
 }
@@ -149,7 +140,6 @@
 .icon-heading {
   margin: auto;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .icon-container {
@@ -166,7 +156,6 @@
 .cert-heading {
   margin: auto;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .cert-left-side {
@@ -193,7 +182,6 @@
 
 .portfolio-header {
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
   letter-spacing: 4px;
   color: #f3f3f3;
 }
@@ -214,14 +202,15 @@
   border-radius: 0%;
   border: none;
 }
+
 .card-body {
   display: flex;
   flex-direction: column;
-  color: ##f3f3f3;
+  color: #131313;
+  background-color: #f3f3f3;
 }
 
 .card-title {
-  font-family: 'Montserrat', sans-serif;
   font-size: 1.3em;
   font-weight: bolder;
   color: #131313;
@@ -230,7 +219,6 @@
 .card-text {
   padding-bottom: 10px;
   margin: 10px;
-  font-family: 'Lato', sans-serif;
 }
 
 .btn {
@@ -239,19 +227,17 @@
   margin-left: auto;
   width: 120px;
   padding:10px;
-  font-family: 'Lato', sans-serif;
   color: #131313;
   text-decoration: none;
   border: none;
   border-radius: 0.4em;
-  background: rgb(254,140,77);
+  background: #FF6C17;
 } 
 
 .btn:hover {
-  font-family: 'Lato', sans-serif;
   color: #f2f2f2;
-  background: rgb(54,54,54);
-  background: radial-gradient(circle, rgba(54,54,54,1) 0%, rgba(66,66,66,1) 50%);
+  background: #424242;
+  opacity: .7;
   transition: 0.5s;
 }
 
@@ -293,14 +279,12 @@
   text-align: center;
   margin: 0 auto;
   padding: 40px 0;
-  font-family: 'Montserrat', sans-serif;
   letter-spacing: 4px;
   color: #f2f2f2;
 }
 
 /* Left contact page */
 .form-horizontal {
-  font-family: 'Lato', sans-serif;
   font-weight: 400;
   margin-left: 2%;
   margin-right: 2%;
@@ -308,7 +292,6 @@
 
 .form-control, 
 textarea {
-  font-family: 'Lato', sans-serif;
   letter-spacing: 2px;
   border-radius: 4px;
   background-color: transparent;
@@ -322,19 +305,18 @@ textarea {
 .send-button {
   margin-top: 40px;
   height: 50px;
-  font-family: 'Lato', sans-serif;
   color: #131313;
   text-decoration: none;
   border: none;
   border-radius: 0.4em;
-  background: rgb(254,140,77);
+  background: #FF6C17;
 }
 
 .send-button:hover {
-  font-family: 'Lato', sans-serif;
   color: #f2f2f2;
-  background: rgb(54,54,54);
-  background: radial-gradient(circle, rgba(54,54,54,1) 0%, rgba(66,66,66,1) 50%);
+  background: #424242;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  opacity: .6;
   transition: 0.5s;
 }
 
@@ -347,7 +329,6 @@ textarea {
 
 /* Location, Phone, Email Section */
 .contact-list {
-  font-family: 'Lato', sans-serif;
   list-style-type: none;
   width: 360px;
 }
@@ -355,12 +336,10 @@ textarea {
 .list-item {
   margin-left: -10px;
   line-height: 4;
-  font-family: 'Lato', sans-serif;
   color: #f2f2f2;
 }
 
 .contact-text {
-  font-family: 'Lato', sans-serif;
   letter-spacing: 1.5px;
   color: #f2f2f2;
 }
@@ -431,7 +410,6 @@ textarea {
 
 .copyright {
   color: #f2f2f2;
-  font-family: 'Lato', sans-serif;
   letter-spacing: 1px;
   font-size: smaller;
   text-align: center;
