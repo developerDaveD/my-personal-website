@@ -19,7 +19,7 @@
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
-  background-attachment: fixed; 
+  /* background-attachment: fixed; */ 
   background-color: #676767;
   background-blend-mode: soft-light; 
 }
@@ -27,6 +27,7 @@
 .inner-wrapper {
   position: absolute;
   top: 35%;
+  margin-left: -15px;
   width: 100%;
   text-align: center;
 }
@@ -255,7 +256,7 @@
   background-size: cover;
   background-color: #7a7a7a;
   background-blend-mode: screen;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */ 
 }
 
 .contact-wrapper {
