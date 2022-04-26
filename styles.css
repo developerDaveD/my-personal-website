@@ -19,9 +19,9 @@
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  /*background-attachment: fixed;
-  background-color: #383838;
-  background-blend-mode: screen;  */
+  /* background-attachment: fixed;
+  background-color: #b7b7b7;
+  background-blend-mode: luminosity; */
 }
 
 .inner-wrapper {
