@@ -93,7 +93,7 @@
 
 .modal-button:hover {
   color: #f2f2f2;
-  background: #424242;
+  background: #17aaff;
   opacity: .7;
   transition: 0.5s;
 }
@@ -242,7 +242,7 @@
 
 .btn:hover {
   color: #f2f2f2;
-  background: #424242;
+  background: #17aaff;
   opacity: .7;
   transition: 0.5s;
 }
@@ -320,9 +320,7 @@ textarea {
 
 .send-button:hover {
   color: #f2f2f2;
-  background: #424242;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  opacity: .7;
+  background: #17aaff;
   transition: 0.5s;
 }
 
@@ -400,7 +398,7 @@ textarea {
   line-height: 49px;
   border-radius: 50%;
   opacity: 0;
-  box-shadow: 0 0 0 2px #FF6C17;
+  box-shadow: 0 0 0 2px #17aaff;
   transition: all .4s ease-in-out;
 }
 
