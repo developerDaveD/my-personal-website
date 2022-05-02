@@ -300,7 +300,7 @@
 .form-control, 
 textarea {
   letter-spacing: 2px;
-  border-radius: 4px;
+  border-radius: 0px;
   background-color: transparent;
 }
 
