@@ -17,6 +17,7 @@ body {
 /* Top image section*/
 .background-image {
   position: relative;
+  height: 400px;
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
@@ -472,14 +473,6 @@ textarea {
 
 
 @media screen and (max-width: 569px) {
-
-  .inner-wrapper {
-    position: absolute;
-    top: 15%;
-    margin-left: -10px;
-    width: 100%;
-    text-align: center;
-  }
 
   .inner-wrapper h1 {
     font-size: 2.5rem;
