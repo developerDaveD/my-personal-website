@@ -22,6 +22,7 @@ body {
   margin-right: auto;
   background-size: cover;
   background-color: #3b3b3b;
+  background-color: #3d4855;
   background-blend-mode: soft-light; 
 }
 
@@ -421,7 +422,42 @@ textarea {
 }
 
 /*Media Queries*/
+@media screen and (max-width: 569px) {
+  .background-image {
+    height: 300px;
+    background-size: cover;
+  }
+
+  .inner-wrapper h1 {
+    font-size: 2.5rem;
+  }
+
+  .inner-wrapper h5 {
+    font-size: 1.5rem;
+  }
+
+  .form-horizontal {
+    display: flex;
+    flex-direction: column;
+    float: none;
+    margin: 0 auto;
+  }  
+
+  .form-control, textarea {
+    margin: 0 auto;
+  }
+ 
+  .name, .email, textarea {
+    width: 400px;
+  } 
+  
+  .social-media-list {
+    left: 0;
+  }
+
+
 @media screen and (max-width: 1000px) {
+
   .contact-wrapper {
     display: flex;
     flex-direction: column;
@@ -472,34 +508,7 @@ textarea {
 }
 
 
-@media screen and (max-width: 569px) {
 
-  .inner-wrapper h1 {
-    font-size: 2.5rem;
-  }
-
-  .inner-wrapper h5 {
-    font-size: 1.5rem;
-  }
-
-  .form-horizontal {
-    display: flex;
-    flex-direction: column;
-    float: none;
-    margin: 0 auto;
-  }  
-
-  .form-control, textarea {
-    margin: 0 auto;
-  }
- 
-  .name, .email, textarea {
-    width: 400px;
-  } 
-  
-  .social-media-list {
-    left: 0;
-  }
   
 
 
