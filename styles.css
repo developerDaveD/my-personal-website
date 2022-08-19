@@ -48,9 +48,6 @@ body {
 
 /* About Me */
 
-.about-img {
-}
-
 .about-content-card {
   margin-left: auto;
   margin-right: auto;
@@ -424,7 +421,7 @@ textarea {
 }
 
 
-@media screen and (min-width: 570px) and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 
  .contact-wrapper {
     display: flex;
