@@ -402,6 +402,7 @@ textarea {
   .technologies-section {
     display: none;
   }
+
   .form-horizontal {
     display: flex;
     flex-direction: column;
@@ -420,18 +421,19 @@ textarea {
   .social-media-list {
     left: 0;
   }
+}
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 570px) and (max-width: 1000px) {
 
-  .contact-wrapper {
+ .contact-wrapper {
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
   }
 
-.form-horizontal {
+  .form-horizontal {
     margin: 0 auto;
     width: 90%;
   }  
@@ -446,30 +448,66 @@ textarea {
   }  
 
   .contact-list {
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 70px;
-}
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+  }
 
   .list-item {
-  line-height: 3;
-}
+    line-height: 3;
+  }
 
   .rule {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
   }
+
   .social-media-list li {
     width: 54px;
     height: 54px;
     line-height: 49px;
-  }
+  } 
 
   .social-media-list li:after {
     width: 54px;
     height: 54px;
     line-height: 49px;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1115px) {
+
+  .about-content-card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 6rem;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+  }
+
+.about-heading {
+  padding-top: 0;
+  color: #131313;
+  }
+
+.about-me-para {
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #131313;
+  }
+
+.modal-button {
+  margin-left: 3.75rem;
+  margin-bottom: 1.5rem;
+  height: 50px;
+  width: 150px;
+  color: #f2f2f2;
+  text-decoration: none;
+  border: none;
+  border-radius: 3px;
+  background: #17aaff;
   }
 }
 
