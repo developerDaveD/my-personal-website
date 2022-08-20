@@ -5,25 +5,23 @@ body {
 }
 
 .navbar-container {
-  background: rgb(66,66,66);
-  background: linear-gradient(0deg, rgba(66,66,66,1) 0%, rgba(41,41,41,1) 100%);
+  background: rgb(248, 248, 248);
 }
 
 .navbar {
   margin: auto;
   max-width: 1200px;
+  background-color: #f4f4f4;
 } 
 
 /* Top image section*/
-.background-image {
+.hero-background {
   position: relative;
   height: 400px;
   margin-left: auto;
   margin-right: auto;
-  background-size: cover;
-  background-color: #3b3b3b;
-  background-color: #3d4855;
-  background-blend-mode: soft-light; 
+  background: rgb(38,38,40);
+  background: radial-gradient(circle, rgba(38,38,40,1) 0%, rgba(61,72,85,1) 91%); 
 }
 
 .inner-wrapper {
@@ -44,6 +42,7 @@ body {
   font-size: 2rem;
   font-weight: 700;
   color: #FF6C17;
+  opacity: .8;
 }
 
 /* About Me */
@@ -82,13 +81,13 @@ body {
   text-decoration: none;
   border: none;
   border-radius: 3px;
-  background: #17aaff;
+  background: #0e74af;
 }
 
 .modal-button:hover {
   color: #131313;
   background: #FF6C17;
-  opacity: 0.8;
+  opacity: .8;
   transition: 0.5s;
 }
 
@@ -182,7 +181,7 @@ background: radial-gradient(circle, rgba(159,159,159,1) 18%, rgba(244,244,244,1)
   text-decoration: none;
   border: none;
   border-radius: 3px;
-  background: #17aaff;
+  background: #0e74af;
 } 
 
 .btn:hover {
@@ -193,7 +192,7 @@ background: radial-gradient(circle, rgba(159,159,159,1) 18%, rgba(244,244,244,1)
 }
 
 /* Technologies section*/
-
+  
 .technologies-section {
   margin-left: auto;
   margin-right: auto;
@@ -222,7 +221,7 @@ background: radial-gradient(circle, rgba(159,159,159,1) 18%, rgba(244,244,244,1)
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: #7a7a7a;
+  background-color: #3d4855;
   background-blend-mode: screen;
 }
 
@@ -279,7 +278,7 @@ textarea {
   text-decoration: none;
   border: none;
   border-radius: 3px;
-  background: #17aaff;
+  background: #0e74af;
 }
 
 .send-button:hover {
@@ -363,7 +362,7 @@ textarea {
   line-height: 49px;
   border-radius: 50%;
   opacity: 0;
-  box-shadow: 0 0 0 2px #17aaff;
+  box-shadow: 0 0 0 2px #0e74af;
   transition: all .4s ease-in-out;
 }
 
@@ -523,7 +522,7 @@ textarea {
   text-decoration: none;
   border: none;
   border-radius: 3px;
-  background: #17aaff;
+  background: #0e74af;
   }
 }
 
