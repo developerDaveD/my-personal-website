@@ -384,7 +384,13 @@ textarea {
 
   .background-image {
     height: 300px;
+    width: 100%;
     background-size: cover;
+  }
+
+  .hero-background {
+  position: relative;
+  height: 400px;
   }
 
   .inner-wrapper h1 {
