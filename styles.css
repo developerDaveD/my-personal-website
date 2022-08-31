@@ -54,7 +54,7 @@ body {
   margin-right: auto;
   width: 90%;
   margin-top: 6rem;
-  background-color: rgb(66,66,66);
+  background-color: rgb(56, 56, 56);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -121,8 +121,8 @@ body {
 /* Portfolio section*/
 
 .portfolio-section {
-  background: rgb(66,66,66);
-  background: linear-gradient(180deg, rgba(66,66,66,1) 0%, rgba(66,66,66,0.13209033613445376) 50%, rgba(66,66,66,1) 100%);
+  background-color: rgb(56, 56, 56);
+  background: linear-gradient(180deg, rgba(56,56,56,1) 0%, rgba(56,56,56,0.13209033613445376) 50%, rgba(56,56,56,1) 100%);
 }
 
 .portfolio-container {
@@ -238,7 +238,7 @@ body {
   padding-bottom: 50px;
   position: relative;
   max-width: 940px;
-  background-color: rgb(66,66,66);
+  background-color: rgb(56,56,56);
   box-shadow: rgba(0, 0, 0, 0.64) 0px 3px 8px;
 }
 
