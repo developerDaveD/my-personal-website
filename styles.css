@@ -346,7 +346,7 @@ textarea {
   margin: 4px 4px;
   line-height: 49px;
   border-radius: 50%;
-  background-color: rgb(66,66,66);
+  background-color: rgb(56,56,56);
   cursor: pointer; 
   box-shadow: 0 0 0 1px #fafafa;
   transition: all .2s ease-in-out;
@@ -533,7 +533,7 @@ textarea {
     text-decoration: none;
     border: none;
     border-radius: 3px;
-    background: #0e74af;
+    background: #e29804;
   }
 }
 
