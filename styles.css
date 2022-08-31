@@ -1,27 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
   font-family: 'Montserrat', sans-serif;
-}
-
-.navbar-container {
-  background: rgb(248, 248, 248);
+  background-color: rgb(229,229,229);
 }
 
 .navbar {
   margin: auto;
   max-width: 1200px;
-  background-color: #f4f4f4;
 } 
 
 /* Top image section*/
 .hero-background {
   position: relative;
-  height: 400px;
+  height: 500px;
   margin-left: auto;
   margin-right: auto;
-  background: rgb(38,38,40);
-  background: radial-gradient(circle, rgba(38,38,40,1) 0%, rgba(61,72,85,1) 91%); 
+  background-image: url(images/hero-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #3d4855;
+  background-blend-mode: luminosity;
 }
 
 .inner-wrapper {
@@ -41,39 +44,37 @@ body {
 .inner-wrapper h5 {
   font-size: 2rem;
   font-weight: 700;
-  color: #FF6C17;
+  color: #efa003;
   opacity: .8;
 }
 
 /* About Me */
-
 .about-content-card {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
   margin-top: 6rem;
-  background-color: #f4f4f4;
-  border-radius: 4px;
+  background-color: rgb(66,66,66);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .about-card-body {
   margin-top: 2.5rem;
+  margin-left: 3rem;
 }
 
 .about-heading {
   padding-top: 60px;
   color: #131313;
+  color: #f4f4f4;
 }
 
 .about-me-para {
-  padding-left: 10%;
-  padding-right: 10%;
   font-size: 1.2rem;
-  color: #131313;
+  color: #f4f4f4;
 }
 
 .modal-button {
-  margin-left: 3.75rem;
   margin-bottom: 1.5rem;
   height: 50px;
   width: 150px;
@@ -81,13 +82,14 @@ body {
   text-decoration: none;
   border: none;
   border-radius: 3px;
-  background: #0e74af;
+  background: #e29804;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .modal-button:hover {
   color: #131313;
-  background: #FF6C17;
-  opacity: .8;
+  background: #e29804;
+  opacity: 0.8;
   transition: 0.5s;
 }
 
@@ -119,8 +121,8 @@ body {
 /* Portfolio section*/
 
 .portfolio-section {
-background: rgb(159,159,159);
-background: radial-gradient(circle, rgba(159,159,159,1) 18%, rgba(244,244,244,1) 100%);
+  background: rgb(66,66,66);
+  background: linear-gradient(180deg, rgba(66,66,66,1) 0%, rgba(66,66,66,0.13209033613445376) 50%, rgba(66,66,66,1) 100%);
 }
 
 .portfolio-container {
@@ -134,7 +136,7 @@ background: radial-gradient(circle, rgba(159,159,159,1) 18%, rgba(244,244,244,1)
 .portfolio-header {
   text-align: center;
   letter-spacing: 4px;
-  color: #252525;
+  color: #f2f2f2;
 }
 
 .portfolio-row {
@@ -143,21 +145,19 @@ background: radial-gradient(circle, rgba(159,159,159,1) 18%, rgba(244,244,244,1)
 
 .card {
   margin: 35px;
-  border-radius: 4px;
   border: none;
-  box-shadow: rgb(32, 49, 59) 0px 20px 30px -10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .card-img-top {
-  border: none;
+  border: none; 
 }
 
 .card-body {
   display: flex;
   flex-direction: column;
   color: #131313;
-  background-color: white;
-  border-radius: 4px; 
+  background-color: rgb(229,229,229);
 }
 
 .card-title {
@@ -181,12 +181,13 @@ background: radial-gradient(circle, rgba(159,159,159,1) 18%, rgba(244,244,244,1)
   text-decoration: none;
   border: none;
   border-radius: 3px;
-  background: #0e74af;
+  background: #e29804;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 } 
 
 .btn:hover {
   color: #131313;
-  background: #FF6C17;
+  background: #e29804;
   opacity: 0.8;
   transition: 0.5s;
 }
@@ -200,7 +201,7 @@ background: radial-gradient(circle, rgba(159,159,159,1) 18%, rgba(244,244,244,1)
   max-width: 800px;
   margin-top: 6rem;
   background-color: #f4f4f4;
-  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .technologies-section h4 {
@@ -237,10 +238,8 @@ background: radial-gradient(circle, rgba(159,159,159,1) 18%, rgba(244,244,244,1)
   padding-bottom: 50px;
   position: relative;
   max-width: 940px;
-  background: rgb(66,66,66);
-  background: linear-gradient(98deg, rgba(66,66,66,1) 0%, rgba(41,41,41,1) 100%);
-  border-radius: 3px;
-  box-shadow: rgb(6, 6, 6) 0px 20px 30px -10px;
+  background-color: rgb(66,66,66);
+  box-shadow: rgba(0, 0, 0, 0.64) 0px 3px 8px;
 }
 
 .section-header { 
@@ -278,12 +277,13 @@ textarea {
   text-decoration: none;
   border: none;
   border-radius: 3px;
-  background: #0e74af;
+  background: #e29804;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .send-button:hover {
   color: #131313;
-  background: #FF6C17;
+  background: #e29804;
   opacity: 0.8;
   transition: 0.5s;
 }
@@ -346,7 +346,7 @@ textarea {
   margin: 4px 4px;
   line-height: 49px;
   border-radius: 50%;
-  background-color: #424242;
+  background-color: rgb(66,66,66);
   cursor: pointer; 
   box-shadow: 0 0 0 1px #fafafa;
   transition: all .2s ease-in-out;
@@ -362,7 +362,7 @@ textarea {
   line-height: 49px;
   border-radius: 50%;
   opacity: 0;
-  box-shadow: 0 0 0 2px #0e74af;
+  box-shadow: 0 0 0 2px #e29804;
   transition: all .4s ease-in-out;
 }
 
@@ -394,6 +394,14 @@ textarea {
   .inner-wrapper h5 {
     font-size: 1.5rem;
   }
+
+   .about-me-para {
+    font-size: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
 
   .technologies-section {
     display: none;
@@ -428,10 +436,12 @@ textarea {
 
   .about-me-para {
     font-size: 1rem;
+    margin-right: 1rem;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
   }
 
   .modal-button {
-    margin-left: 2.75rem;
     margin-bottom: 1.5rem;
     height: 42px;
     width: 130px;
@@ -498,31 +508,26 @@ textarea {
     margin-right: auto;
     width: 90%;
     margin-top: 6rem;
-    background-color: #f4f4f4;
-    border-radius: 4px;
   }
 
-.about-heading {
+  .about-heading {
   padding-top: 0;
-  color: #131313;
   }
-
-.about-me-para {
-  padding-left: 10%;
-  padding-right: 10%;
-  color: #131313;
+  
+  .about-me-para {
+    margin-right: 1rem;
   }
+  
 
-.modal-button {
-  margin-left: 3.75rem;
-  margin-bottom: 1.5rem;
-  height: 50px;
-  width: 150px;
-  color: #f2f2f2;
-  text-decoration: none;
-  border: none;
-  border-radius: 3px;
-  background: #0e74af;
+  .modal-button {
+    margin-bottom: 1.5rem;
+    height: 50px;
+    width: 150px;
+    color: #f2f2f2;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    background: #0e74af;
   }
 }
 
