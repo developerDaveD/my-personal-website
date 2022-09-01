@@ -44,7 +44,7 @@ body {
 .inner-wrapper h5 {
   font-size: 2rem;
   font-weight: 700;
-  color: #efa003;
+  color: #ffaa00;
   opacity: .8;
 }
 
@@ -78,16 +78,15 @@ body {
   margin-bottom: 1.5rem;
   height: 50px;
   width: 150px;
-  color: #f2f2f2;
   text-decoration: none;
   border: none;
-  border-radius: 3px;
+  color: #000000;
   background: #e29804;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .modal-button:hover {
-  color: #131313;
+  color: #f2f2f2;
   background: #e29804;
   opacity: 0.8;
   transition: 0.5s;
@@ -151,6 +150,7 @@ body {
 
 .card-img-top {
   border: none; 
+  border-radius: 0;
 }
 
 .card-body {
@@ -177,16 +177,16 @@ body {
   margin-left: auto;
   width: 120px;
   padding:10px;
-  color: #f2f2f2;
+  color: #000000;
   text-decoration: none;
   border: none;
-  border-radius: 3px;
+  border-radius: 0;
   background: #e29804;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 } 
 
 .btn:hover {
-  color: #131313;
+  color: #f2f2f2;
   background: #e29804;
   opacity: 0.8;
   transition: 0.5s;
@@ -273,16 +273,15 @@ textarea {
 .send-button {
   margin-top: 40px;
   height: 50px;
-  color: #f2f2f2;
+  color: #000000;
   text-decoration: none;
   border: none;
-  border-radius: 3px;
   background: #e29804;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .send-button:hover {
-  color: #131313;
+  color: #f2f2f2;
   background: #e29804;
   opacity: 0.8;
   transition: 0.5s;
@@ -408,7 +407,6 @@ textarea {
     padding-bottom: 1rem;
   }
 
-
   .technologies-section {
     display: none;
   }
@@ -451,10 +449,8 @@ textarea {
     margin-bottom: 1.5rem;
     height: 42px;
     width: 130px;
-    color: #f2f2f2;
     text-decoration: none;
     border: none;
-    border-radius: 2px;
   }
 
  .contact-wrapper {
@@ -524,15 +520,13 @@ textarea {
     margin-right: 1rem;
   }
   
-
   .modal-button {
     margin-bottom: 1.5rem;
     height: 50px;
     width: 150px;
-    color: #f2f2f2;
+    color: #000000;
     text-decoration: none;
     border: none;
-    border-radius: 3px;
     background: #e29804;
   }
 }
