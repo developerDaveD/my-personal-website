@@ -23,8 +23,9 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: #3d4855;
+  background-color: #ffffff;
   background-blend-mode: luminosity;
+  
 }
 
 .inner-wrapper {
