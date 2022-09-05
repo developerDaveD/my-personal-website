@@ -417,8 +417,16 @@ textarea {
 
   .hero-background {
   position: relative;
-  height: 400px;
+  height: 300px;
   }
+
+  .inner-wrapper {
+  position: absolute;
+  top: 25%;
+  margin-left: -10px;
+  width: 100%;
+  text-align: center;
+}
 
   .inner-wrapper h1 {
     font-size: 2.5rem;
@@ -460,6 +468,11 @@ textarea {
 }
 
 @media screen and (max-width: 1000px) {
+
+  .hero-background {
+    position: relative;
+    height: 340px;
+  }
 
   .about-heading {
     font-size: 2rem;
