@@ -15,9 +15,11 @@ body {
 
 .nav-link {
   margin-right: 2rem;
+  font-weight: 600;
 }
 
 .nav-link:hover {
+  color: #ffaa00;
   text-decoration: underline;
 }
 
@@ -31,11 +33,11 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: #3d4855;
-  background-blend-mode: luminosity; 
-
   /* background-color: #3d4855;
-  background-blend-mode: soft-light;  */
+  background-blend-mode: luminosity;  */
+
+  background-color: #3d4855;
+  background-blend-mode: soft-light; 
   
 }
 
