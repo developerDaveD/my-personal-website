@@ -64,13 +64,13 @@ body {
 
 .inner-wrapper h1 {
   font-weight: 900;
-  color: #ffffff;
+  color: #ffaa00;
 }
 
 .inner-wrapper h5 {
   font-size: 2rem;
   font-weight: 700;
-  color: #ffaa00;
+  color: #ffffff;
   opacity: .8;
 }
 
