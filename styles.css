@@ -11,17 +11,27 @@ body {
 }
 
 .navbar {
-  margin: auto;
-  max-width: 1200px;
+  background-color: rgb(56, 56, 56);
 } 
 
-.nav-link {
-  margin-right: 2rem;
-  font-weight: 600;
+.nav-section {
+  margin: auto;
+  max-width: 1200px;
 }
 
-.nav-link:hover {
+.nav-link {
+  margin-right: 1rem;
+  margin-left: 2rem;
+}
+
+.nav-item a {
+  color: #ffffff;
+}
+
+.nav-item a:hover {
+  color: #e29804;
   text-decoration: underline;
+  transition: 0.5s;
 }
 
 /* Top image section*/
