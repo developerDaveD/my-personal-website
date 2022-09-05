@@ -13,18 +13,26 @@ body {
   max-width: 1200px;
 } 
 
+.nav-link {
+  margin-right: 2rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
 /* Top image section*/
 .hero-background {
   position: relative;
   height: 500px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(images/hero-image-alt.jpg);
+  background-image: url(images/hero-image-dark.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: #17283d;
-  background-blend-mode: screen;
+  background-color: #c82a2a;
+  background-blend-mode: darken; 
   
 }
 
@@ -39,13 +47,13 @@ body {
 .inner-wrapper h1 {
   font-weight: 900;
   font-family: 'Montserrat', sans-serif;
-  color: #ffaa00;
+  color: #ffffff;
 }
 
 .inner-wrapper h5 {
   font-size: 2rem;
   font-weight: 700;
-  color: #ffffff;
+  color: #ffaa00;
   opacity: .8;
 }
 
@@ -228,6 +236,8 @@ body {
   background-size: cover;
   background-color: #3d4855;
   background-blend-mode: screen;
+  background-color: #c82a2a;
+  background-blend-mode: darken;
 }
 
 .contact-wrapper {
