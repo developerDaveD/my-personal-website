@@ -410,24 +410,26 @@ textarea {
 /*Media Queries*/
 @media screen and (max-width: 569px) {
 
-  .background-image {
+  /* .background-image {
     height: 300px;
     width: 100%;
     background-size: cover;
-  }
+  } */
 
   .hero-background {
   position: relative;
   height: 300px;
+  width: 100%;
+  background-size: cover;
   }
 
-  .inner-wrapper {
+  /* .inner-wrapper {
   position: absolute;
   top: 30%;
   margin-left: -10px;
   width: 100%;
   text-align: center;
-}
+} */
 
   .inner-wrapper h1 {
     font-size: 2.5rem;
