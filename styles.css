@@ -50,8 +50,9 @@ body {
   background-size: cover;
   /* background-color: #3d4855;
   background-blend-mode: luminosity;  */
-  background-color: #515b67;
+  background-color: #5c6570;
   background-blend-mode: soft-light; 
+
 }
 
 .inner-wrapper {
@@ -422,7 +423,7 @@ textarea {
 
   .inner-wrapper {
   position: absolute;
-  top: 25%;
+  top: 30%;
   margin-left: -10px;
   width: 100%;
   text-align: center;
