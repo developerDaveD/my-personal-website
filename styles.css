@@ -31,8 +31,11 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: #c82a2a;
-  background-blend-mode: darken; 
+  background-color: #3d4855;
+  background-blend-mode: luminosity; 
+
+  /* background-color: #3d4855;
+  background-blend-mode: soft-light;  */
   
 }
 
@@ -236,8 +239,6 @@ body {
   background-size: cover;
   background-color: #3d4855;
   background-blend-mode: screen;
-  background-color: #c82a2a;
-  background-blend-mode: darken;
 }
 
 .contact-wrapper {
