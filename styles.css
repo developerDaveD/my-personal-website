@@ -145,6 +145,7 @@ body {
 .card {
   margin: 35px;
   border: none;
+  border-radius: 0;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -157,7 +158,8 @@ body {
   display: flex;
   flex-direction: column;
   color: #131313;
-  background-color: rgb(229,229,229);
+  background: rgb(56,56,56);
+  background: linear-gradient(0deg, rgba(56,56,56,0.43608839563862933) 0%, rgba(242,242,242,1) 100%);
 }
 
 .card-title {
