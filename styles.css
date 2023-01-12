@@ -86,7 +86,8 @@ body {
 
 .about-card-body {
   margin-top: 3rem;
-  margin-left: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .about-heading {
